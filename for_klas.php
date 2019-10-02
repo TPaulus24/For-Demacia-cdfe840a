@@ -1,6 +1,11 @@
 <?php
- $arr = array ("Sjonnie de Wiel", "Herman Kaal", "Henk de Steen", "Inge Kerkhoven", "Gert Kruiswijk"); 
- foreach ($arr as $val) {  
-     echo $val . PHP_EOL; 
- } 
- ?>
+$people = array(
+    "Sjonnie de Wiel",
+    "Herman Kaal",
+    "Henk de Steen",
+    "Inge Kerkhoven",
+    "Gert Kruiswijk",
+);
+for ($i = 0; $i <= count ($people); $i++) {
+    echo $people[$i]. PHP_EOL;
+}
